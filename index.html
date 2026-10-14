@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ilha Aconchego</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script type="importmap">
+{ "imports": { "three": "./node_modules/three/build/three.module.js", "three/addons/": "./node_modules/three/examples/jsm/" } }
+</script>
+</head>
+<body>
+<canvas id="c"></canvas>
+
+<div id="hud">
+  <div class="pill" id="bells">🔔 <b id="bellN">0</b></div>
+  <div class="pill" id="clock">Dia 1 · 09:00</div>
+</div>
+<div id="hotbar"></div>
+<div id="prompt"></div>
+<div id="bang">!</div>
+<div id="toasts"></div>
+
+<div id="inv" class="hidden">
+  <div class="inv-panel">
+    <div id="inv-grid"></div>
+    <div id="inv-label" class="hidden"></div>
+    <div id="inv-hand">👆</div>
+  </div>
+  <div class="inv-bells"><span class="bag">💰</span><b id="inv-bellN">0</b></div>
+  <div class="inv-clothes">👕</div>
+  <div id="inv-menu" class="hidden"></div>
+  <div class="inv-help"><kbd>WASD</kbd> mover <kbd>E</kbd> selecionar <kbd>I</kbd> fechar</div>
+</div>
+
+<div id="ward" class="hidden">
+  <div class="ward-panel">
+    <div class="ward-title">👕 Guarda-roupa</div>
+    <div id="ward-rows"></div>
+    <div class="ward-help"><kbd>W S</kbd> escolher <kbd>A D</kbd> trocar <kbd>C</kbd> fechar</div>
+  </div>
+</div>
+
+<div id="creator" class="hidden">
+  <canvas id="cr-canvas"></canvas>
+  <div class="cr-right">
+    <div class="cr-head"><kbd>Q</kbd><div id="cr-tabs"></div><kbd>E</kbd><div id="cr-tablabel"></div></div>
+    <div id="cr-grid"></div>
+    <div id="cr-sw"></div>
+    <button class="cr-confirm">Confirmar <span>👆</span></button>
+  </div>
+</div>
+
+<div id="dialog" class="hidden">
+  <div id="dname"></div>
+  <div id="dtext"></div>
+  <div id="dnext">▼</div>
+</div>
+
+<div id="title">
+  <div class="logo">
+    <div class="sign">
+      <div class="badge">🍃</div>
+      <span class="welcome">Bem-vindo à</span>
+      <span class="l1">Ilha</span>
+      <span class="l2">Aconchego</span>
+    </div>
+    <div class="tag">Vida na Ilha</div>
+  </div>
+  <div class="press">Pressione qualquer botão</div>
+  <div class="ver">Ver. 1.0.0</div>
+  <div class="settings"><b>⚙</b> Configurações<small>Backup: salvo neste navegador</small></div>
+</div>
+<script type="module" src="src/main.js"></script>
+</body>
+</html>

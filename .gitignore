@@ -1,0 +1,20 @@
+# dependências (reinstale com: npm install)
+node_modules/
+
+# modelos/arquivos de terceiros usados só como referência (licença desconhecida) — não versionar
+vendor_ref/
+assets/textures/macchiato/
+
+# versões antigas de personagem (não usadas pelo jogo)
+assets/models/char/
+assets/models/player*.glb
+assets/models/base_blend.glb
+
+# temporários
+__pycache__/
+*.pyc
+*.blend1
+*.log
+.DS_Store
+Thumbs.db
+_patch*.py

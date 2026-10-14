@@ -1,0 +1,80 @@
+{
+ "items": [
+  {
+   "id": "body",
+   "slot": "body",
+   "name": "Corpo",
+   "file": "assets/models/char2/body.glb"
+  },
+  {
+   "id": "top_moletom",
+   "slot": "top",
+   "name": "Moletom",
+   "file": "assets/models/char2/top_moletom.glb",
+   "tint": "hoodie"
+  },
+  {
+   "id": "bottom_calca",
+   "slot": "bottom",
+   "name": "Calça",
+   "file": "assets/models/char2/bottom_calca.glb",
+   "tint": "pants"
+  },
+  {
+   "id": "shoes_tenis",
+   "slot": "shoes",
+   "name": "Tênis",
+   "file": "assets/models/char2/shoes_tenis.glb",
+   "tint": "shoes"
+  },
+  {
+   "id": "hair_tigela",
+   "slot": "hair",
+   "name": "Tigela (original)",
+   "file": "assets/models/char2/hair_tigela.glb",
+   "tint": "hair"
+  },
+  {
+   "id": "acc_bolsa",
+   "slot": "bag",
+   "name": "Bolsa a tiracolo",
+   "file": "assets/models/char2/acc_bolsa.glb",
+   "tint": "bag"
+  },
+  {
+   "id": "hair_curto",
+   "slot": "hair",
+   "name": "Cachinhos",
+   "file": "assets/models/char2/hair_curto.glb",
+   "tint": "hair"
+  },
+  {
+   "id": "hair_chanel",
+   "slot": "hair",
+   "name": "Chanel com Franja",
+   "file": "assets/models/char2/hair_chanel.glb",
+   "tint": "hair"
+  },
+  {
+   "id": "hair_rabo",
+   "slot": "hair",
+   "name": "Rabo de Cavalo",
+   "file": "assets/models/char2/hair_rabo.glb",
+   "tint": "hair"
+  },
+  {
+   "id": "hair_coque",
+   "slot": "hair",
+   "name": "Coque",
+   "file": "assets/models/char2/hair_coque.glb",
+   "tint": "hair"
+  },
+  {
+   "id": "hair_topete",
+   "slot": "hair",
+   "name": "Topete Espetado",
+   "file": "assets/models/char2/hair_topete.glb",
+   "tint": "hair"
+  }
+ ]
+}
